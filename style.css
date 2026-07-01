@@ -1,1 +1,20 @@
-
+body{
+    background-color: #4B9C80;
+    color: #69C99B;
+}
+header{
+    background-color: #add9c3;
+    color: #add9c3;
+}
+main{
+    background-color: #4FBD98;
+    color: #FFFFFF;
+}
+section{
+    background-color: #CCFFE6;
+    color: #32B877;
+}
+footer{
+    background-color: turquoise;
+    color: aquamarine;
+}
