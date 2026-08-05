@@ -1,14 +1,25 @@
 body {
-    background-color: #f4f1ea;
+    background-color: #C89D52;
     color: #222222;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 header {
-    background-color: #6b2d5c;
+    background-color: #4E3629;
     color: white;
     text-align: center ;
     padding: 30xp;
 }
+
 h1 {
-    font-size
+    font-size: 40px;
+}
+
+h2 {
+    color: #2B2523;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.6;
 }
