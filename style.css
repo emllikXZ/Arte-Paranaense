@@ -1,12 +1,12 @@
 body {
-    background-color: #e8fde0;
+    background-color: #79b3f1;
     color: #111b00;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1;
 }
 
 header {
-    background-color: #39ac3e;
+    background-color: #D5E9FF;
     color: white;
     text-align: center;
     padding: 30xp;
@@ -17,12 +17,12 @@ h1 {
 }
 
 h2 {
-    color: #2B2523;
+    color: #031A32;
 }
 
 p {
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 25px;
+    line-height: 2.0;
 }
 
 main {
@@ -49,6 +49,6 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: #031A32;
     margin-top: 8px;
 }
