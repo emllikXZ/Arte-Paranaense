@@ -6,8 +6,8 @@ margin:0;
 }
 
 header {
-background-color: #7cd374;
-color: #ffffff;
+background-color: #deffdb;
+color: #70bb5e;
 text-align: center;
 padding: 40px;
 }
@@ -39,7 +39,7 @@ display: inline-block;
 }
 
 nav a:hover {
-background-color: #39b33f;
+background-color: #0a8110;
 }
 
 main {
