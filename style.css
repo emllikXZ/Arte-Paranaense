@@ -1,5 +1,5 @@
 body {
-background-color: #7cd471;
+background-color: #8aeb7e;
 color: #031A32;
 font-family: Arial, sans-serif;
 margin:0;
@@ -7,9 +7,9 @@ margin:0;
 
 header {
 background-color: #deffdb;
-color: #70bb5e;
+color: #56a842;
 text-align: center;
-padding: 40px;
+padding: 45px;
 }
 
 h1 {
@@ -17,7 +17,7 @@ font-size: 36px;
 }
 
 h2 {
-color: #42b633;
+color: #26a815;
 }
 
 p {
