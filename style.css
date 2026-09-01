@@ -1,13 +1,13 @@
 body {
-background-color: #e2eefc;
+background-color: #7cd471;
 color: #031A32;
 font-family: Arial, sans-serif;
 margin:0;
 }
 
 header {
-background-color: #D5E9FF;
-color: #e2eefc;
+background-color: #37f526;
+color: #ffffff;
 text-align: center;
 padding: 30px;
 }
@@ -31,7 +31,7 @@ margin-top: 20px;
 nav a {
 color: white;
 text-decoration: none;
-background-color: #3974b3;
+background-color: #2c9922;
 padding: 10px 15px;
 border-radius: 8px;
 margin: 5px;
@@ -39,7 +39,7 @@ display: inline-block;
 }
 
 nav a:hover {
-background-color: #3974b3;
+background-color: #39b33f;
 }
 
 main {
@@ -95,10 +95,10 @@ margin-top: 8px;
 }
 
 .card {
-background-color: #D5E9FF;
+background-color: #d6ffd5;
 padding: 15px;
 margin: 15px 0;
-border-left: 6px solid #28578a;
+border-left: 6px solid #2b8a28;
 border-radius: 10px;
 }
 
@@ -107,7 +107,7 @@ margin-top: 0;
 }
 
 footer {
-background-color: #031A32;
+background-color: #0b3203;
 color: white;
 text-align: center;
 padding: 20px;
