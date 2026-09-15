@@ -9,7 +9,7 @@ header {
 background-color: #c7bf4b;
 color: #ffffff;
 text-align: center;
-padding: 55px;
+padding: 70px;
 }
 
 h1 {
@@ -49,21 +49,21 @@ margin: auto;
 
 main {
 width: 80%;
-margin:auto;
+margin: auto;
 }
 
 select{
 background-color: white;
 margin: 20px 0;
-padding:20px ;
+padding: 20px;
 border-radius: 12px;
 }
 
 img {
 width: 100%;
 max-width: 600px;
-display:block ;
-margin:auto;
+display: block;
+margin: auto;
 border-radius: 12px;
 
 }
@@ -117,23 +117,7 @@ margin-top: 30px;
 }
 
 button{
-    background-color: rgb(209, 47, 7);
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button{
-    background-color: rgb(209, 179, 7);
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button{
-    background-color: rgb(209, 179, 7);
+    background-color: rgb(209, 7, 7);
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -141,5 +125,5 @@ button{
 }
 
 button:hover{
-    background-color: rgb(115, 247, 75);
+    background-color: rgb(247, 138, 75);
 }
