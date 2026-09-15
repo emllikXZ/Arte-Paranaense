@@ -46,6 +46,7 @@ main {
 width: 80%;
 margin: auto;
 }
+
 main {
 width: 80%;
 margin:auto;
@@ -72,6 +73,7 @@ font-size: 14px;
 color: #555555;
 margin-top: 8px;
 }
+
 section {
 background-color: white;
 margin: 20px 0;
@@ -115,6 +117,22 @@ margin-top: 30px;
 }
 
 button{
+    background-color: rgb(209, 47, 7);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(209, 179, 7);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button{
     background-color: rgb(209, 179, 7);
     border: none;
     padding: 10px 15px;
@@ -123,5 +141,5 @@ button{
 }
 
 button:hover{
-    background-color: rgb(247, 75, 75);
+    background-color: rgb(115, 247, 75);
 }
