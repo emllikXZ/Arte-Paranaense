@@ -1,4 +1,4 @@
-const botoesCurtir = document.querySelectorAkk(".curtir");
+const botoesCurtir = document.querySelectorAll(".curtir");
 
 botoesCurtir.forEach(funtion(botaoCurtir){
     let curtiu = false;
@@ -10,7 +10,7 @@ function curtir(){
     contador.rexrContent++;
     curtiu = true;}
     else{
-        con.textContent--;
+        contador.textContent--;
         curtiu = false;
     }
 }
