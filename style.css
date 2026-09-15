@@ -1,6 +1,6 @@
 body {
 background-color: #fcf483;
-color: #083203;
+color: #322b03;
 font-family: Arial, sans-serif;
 margin: 4px;
 }
@@ -122,6 +122,7 @@ button{
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
 
 button:hover{
