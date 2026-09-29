@@ -1,122 +1,124 @@
 body {
-background-color: #fcf483;
-color: #322b03;
-font-family: Arial, sans-serif;
-margin: 4px;
+    background-color: #fcf483;
+    color: #322b03;
+    font-family: Arial, sans-serif;
+    margin: 4px;
 }
 
 header {
-background-color: #c7bf4b;
-color: #ffffff;
-text-align: center;
-padding: 70px;
+    background-color: #c7bf4b;
+    color: #ffffff;
+    text-align: center;
+    padding: 70px;
 }
 
 h1 {
-font-size: 36px;
+    font-size: 36px;
 }
 
 h2 {
-color: #a89e15;
+    color: #a89e15;
 }
 
 p {
-font-size: 18px;
-line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.6;
 }
+
 nav {
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 nav a {
-color: white;
-text-decoration: none;
-background-color: #998322;
-padding: 10px 15px;
-border-radius: 8px;
-margin: 5px;
-display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #998322;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
 }
 
 nav a:hover {
-background-color: #81750a;
+    background-color: #81750a;
 }
 
 main {
-width: 80%;
-margin: auto;
+    width: 80%;
+    margin: auto;
 }
 
 main {
-width: 80%;
-margin: auto;
+    width: 80%;
+    margin: auto;
 }
 
-select{
-background-color: white;
-margin: 20px 0;
-padding: 20px;
-border-radius: 12px;
+select {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 img {
-width: 100%;
-max-width: 600px;
-display: block;
-margin: auto;
-border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
 
 }
+
 figcaption {
-text-align: center;
-font-size: 14px;
-color: #555555;
-margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 8px;
 }
 
 section {
-background-color: white;
-margin: 20px 0;
-padding: 20px;
-border-radius: 12px;
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 img {
-width: 100%;
-max-width: 600px;
-display: block;
-margin: auto;
-border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
 }
 
 figcaption {
-text-align: center;
-font-size: 14px;
-color: #555555;
-margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 8px;
 }
 
 .card {
-background-color: #fff7d5;
-padding: 15px;
-margin: 15px 0;
-border-left: 6px solid #8a8028;
-border-radius: 10px;
+    background-color: #fff7d5;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #8a8028;
+    border-radius: 10px;
 }
 
 .card h3 {
-margin-top: 0;
+    margin-top: 0;
 }
 
 footer {
-background-color: #322b03;
-color: white;
-text-align: center;
-padding: 20px;
-margin-top: 30px;
+    background-color: #322b03;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 
-button{
+button {
     background-color: rgb(209, 7, 7);
     border: none;
     padding: 10px 15px;
@@ -125,6 +127,12 @@ button{
     text-align: center;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(247, 138, 75);
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
 }
