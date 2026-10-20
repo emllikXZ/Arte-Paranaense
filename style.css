@@ -1,3 +1,16 @@
+:root{
+    --cor-fundo: red;
+    --cor-texto: orange;
+    --cor-principal: yellow;
+    --cor-secundaria: green;
+    --cor-hover: blue;
+    --cor-superficie: purple;
+    --cor-card: pink;
+    --cor-legenda: brown;
+    --cor-clara: grey;
+    --cor-rodape: white;
+}
+
 body {
     background-color: #fcf483;
     color: #322b03;
@@ -136,3 +149,4 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
+
