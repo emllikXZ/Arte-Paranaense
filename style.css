@@ -13,14 +13,14 @@
 
 body {
     background-color: var(--cor-fundo);
-    color: #322b03;
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 4px;
 }
 
 header {
     background-color: var(--cor-principal);
-    color: #ffffff;
+    color: var(--cor-clara);
     text-align: center;
     padding: 70px;
 }
