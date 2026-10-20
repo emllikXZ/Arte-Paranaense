@@ -125,7 +125,7 @@ figcaption {
 }
 
 footer {
-    background-color: var(--cor-principal);
+    background-color: var(--cor-rodape);
     color: var(--cor-clara);
     text-align: center;
     padding: 20px;
