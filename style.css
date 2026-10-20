@@ -12,14 +12,14 @@
 }
 
 body {
-    background-color: #fcf483;
+    background-color: var(--cor-fundo);
     color: #322b03;
     font-family: Arial, sans-serif;
     margin: 4px;
 }
 
 header {
-    background-color: #c7bf4b;
+    background-color: var(--cor-principal);
     color: #ffffff;
     text-align: center;
     padding: 70px;
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: #a89e15;
+    color: var--;
 }
 
 p {
@@ -43,9 +43,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: nav(--);
     text-decoration: none;
-    background-color: #998322;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -53,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #81750a;
+    background-color: var(--cor-fundo-);
 }
 
 main {
@@ -67,7 +67,7 @@ main {
 }
 
 select {
-    background-color: white;
+    background-color: nav(--cor-fundo-);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -85,12 +85,12 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: nav(--cor-legenda);
     margin-top: 8px;
 }
 
 section {
-    background-color: white;
+    background-color: nav(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -107,16 +107,17 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: nav(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: #fff7d5;
+    background-color: nav(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #8a8028;
+    border-left: 6px solid nav(--cor-principal);
     border-radius: 10px;
+    flex: 1 1 300xp;
 }
 
 .card h3 {
@@ -124,15 +125,16 @@ figcaption {
 }
 
 footer {
-    background-color: #322b03;
-    color: white;
+    background-color: nav(--cor-principal);
+    color: nav(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button {
-    background-color: rgb(209, 7, 7);
+    background-color: nav(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -141,7 +143,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(247, 138, 75);
+    background-color: nav(--cor-hover);
 }
 
 .curtir {
