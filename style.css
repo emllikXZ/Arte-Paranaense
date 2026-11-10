@@ -1,13 +1,13 @@
 :root{
-    --cor-fundo: red;
-    --cor-texto: orange;
-    --cor-principal: yellow;
-    --cor-secundaria: green;
-    --cor-hover: blue;
+    --cor-fundo: #DEF4FF;
+    --cor-texto: #021C29;
+    --cor-principal: #2BA9E0;
+    --cor-secundaria: #75D5FF;
+    --cor-hover: #021C29;
     --cor-superficie: purple;
     --cor-card: pink;
     --cor-legenda: brown;
-    --cor-clara: grey;
+    --cor-clara: #021C29;
     --cor-rodape: white;
 }
 
@@ -175,10 +175,10 @@ button:hover {
 
 .btn-tema {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 25px;
+    bottom: 25px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    font-size: 22px;
+    font-size: 25px;
 }
