@@ -1,5 +1,5 @@
 :root{
-    --cor-fundo: #F5FFE0;
+    --cor-fundo: #e8f5cc;
     --cor-texto: #1b2503;
     --cor-principal: #889F57;
     --cor-secundaria: #ABBF80;
@@ -176,9 +176,9 @@ button:hover {
 .btn-tema {
     position: fixed;
     right: 20px;
-    bottom: 30px;
+    bottom: 20px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 25px;
 }
