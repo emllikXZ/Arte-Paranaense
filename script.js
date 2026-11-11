@@ -13,7 +13,7 @@ botoesCurtir.forEach(function (botaoCurtir) {
             curtiu = false;
         }
     }
-});
+})
 
 const btnTema = document.queryseletor(".btn-tema");
 btnTema.addEventListener("click", mudarTema);
