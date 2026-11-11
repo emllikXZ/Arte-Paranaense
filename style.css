@@ -5,7 +5,7 @@
     --cor-secundaria: #ABBF80;
     --cor-hover: #1b2503;
     --cor-superficie: #BACC93;
-    --cor-card: #D1DFB1;
+    --cor-card: #eefad1;
     --cor-legenda: #1b2503;
     --cor-clara: #1b2503;
     --cor-rodape: #253306;
@@ -175,8 +175,8 @@ button:hover {
 
 .btn-tema {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 0px;
+    bottom: 0px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
