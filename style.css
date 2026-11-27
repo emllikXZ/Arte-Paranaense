@@ -194,19 +194,13 @@ button:hover {
     flex-wrap: wrap;
 }
 
-
-        .animar-estrela {
-            animation: pulseStar 0.4s ease;
-        }
-
-        /* Botão Flutuante de Tema Escuro */
         .btn-tema-escuro {
             position: fixed;
-            right: 1.5rem;
-            bottom: 1.5rem;
-            width: 3.5rem;
-            height: 3.5rem;
-            border-radius: 9999px;
+            right: 20px;
+            bottom: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 35%;
             background-color: var(--cor-principal);
             color: #ffffff;
             border: 2px solid rgba(255, 255, 255, 0.25);
