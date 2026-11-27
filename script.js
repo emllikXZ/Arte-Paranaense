@@ -7,8 +7,7 @@ botoesCurtir.forEach(function (botaoCurtir) {
         if (curtiu === false) {
             contador.textContent++;
             curtiu = true;
-        }
-        else {
+        } else {
             contador.textContent--;
             curtiu = false;
         }
@@ -17,7 +16,6 @@ botoesCurtir.forEach(function (botaoCurtir) {
 
 const btnTema = document.querySelector(".btn-tema");
 btnTema.addEventListener("click", mudarTema);
-
 function mudarTema() {
     document.body.classList.toggle("tema-escuro");
 
