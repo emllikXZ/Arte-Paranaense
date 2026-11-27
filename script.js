@@ -1,41 +1,69 @@
-const botoesCurtir = document.querySelectorAll(".curtir");
-botoesCurtir.forEach(function (botaoCurtir) {
-    let curtiu = false;
-    botaoCurtir.addEventListener("click", curtir);
-    function curtir() {
-        const contador = botaoCurtir.querySelector("span");
-        if (curtiu === false) {
-            contador.textContent++;
-            curtiu = true;
-        }
-        else {
-            contador.textContent--;
-            curtiu = false;
-        }
-    }
-});
+        document.addEventListener("DOMContentLoaded", () => {
+            // Inicializa os ícones Lucide
+            if (typeof lucide !== "undefined") {
+                lucide.createIcons();
+            }
 
-const btnTema = document.querySelector(".btn-tema");
-btnTema.addEventListener("click", mudarTema);
+            // ==========================================
+            // 1. CONTROLE DO TEMA CLARO / ESCURO
+            // ==========================================
+            const btnTema = document.getElementById("btnTemaEscuro");
+            const iconeTema = document.getElementById("iconeTema");
 
-function mudarTema() {
-    document.body.classList.toggle("tema-escuro");
+            // Verifica preferência salva no navegador
+            const temaSalvo = localStorage.getItem("tema-erva-mate");
+            if (temaSalvo === "escuro") {
+                document.body.classList.add("tema-escuro");
+                iconeTema.textContent = "☀️";
+            } else {
+                iconeTema.textContent = "🌙";
+            }
 
-if (localStorage.getItem("tema") === "escuro") {
-    document.body.classList.add("tema-escuro");
-}
+            btnTema.addEventListener("click", () => {
+                const estaEscuro = document.body.classList.toggle("tema-escuro");
+                localStorage.setItem("tema-erva-mate", estaEscuro ? "escuro" : "claro");
+                iconeTema.textContent = estaEscuro ? "☀️" : "🌙";
+            });
 
-btnTema.addEventListener("click", () => {
-    const estaEscuro = document.body.classList.toggle("tema-escuro");
-    localStorage.setItem("tema", estaEscuro ? "escuro" : "claro");
-});
-}
 
-function mudaTema() {
-     const corpoPagina = document.body;
-     if (corpoPagina.classList.constains("tema-escuro")) {
-        corpoPagina.classList.remove("tema-escuro");
-     } else {
-        corpoPagina.classList.add("tema-escuro");
-     }
-};
+            const botoesCurtir = document.querySelectorAll(".btn-curtir");
+
+            botoesCurtir.forEach((botao) => {
+                const idSecao = botao.getAttribute("data-id");
+                const contadorSpan = botao.querySelector(".contador");
+                const estrelaSpan = botao.querySelector(".estrela-icone");
+
+                // Recupera estado salvo (se já curtiu e quantidade)
+                let curtiu = localStorage.getItem(`curtiu_${idSecao}`) === "true";
+                let totalCurtidas = parseInt(localStorage.getItem(`total_${idSecao}`), 10) || 0;
+
+                // Atualiza interface inicial
+                contadorSpan.textContent = totalCurtidas;
+                if (curtiu) {
+                    botao.classList.add("curtido");
+                }
+
+                botao.addEventListener("click", () => {
+                    if (!curtiu) {
+                        totalCurtidas++;
+                        curtiu = true;
+                        botao.classList.add("curtido");
+                    } else {
+                        totalCurtidas = Math.max(0, totalCurtidas - 1);
+                        curtiu = false;
+                        botao.classList.remove("curtido");
+                    }
+
+                    contadorSpan.textContent = totalCurtidas;
+
+                    // Animação na estrela
+                    estrelaSpan.classList.remove("animar-estrela");
+                    void estrelaSpan.offsetWidth; // força reflow para reiniciar animação
+                    estrelaSpan.classList.add("animar-estrela");
+
+                    // Salva no localStorage
+                    localStorage.setItem(`curtiu_${idSecao}`, curtiu);
+                    localStorage.setItem(`total_${idSecao}`, totalCurtidas);
+                });
+            });
+        });
