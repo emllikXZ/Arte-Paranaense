@@ -20,6 +20,18 @@ btnTema.addEventListener("click", mudarTema);
 
 function mudarTema() {
     document.body.classList.toggle("tema-escuro");
+
+    const btnTema = document.querySelector(".btn-tema");
+
+// Aplica o tema salvo ao carregar a página
+if (localStorage.getItem("tema") === "escuro") {
+    document.body.classList.add("tema-escuro");
+}
+
+btnTema.addEventListener("click", () => {
+    const estaEscuro = document.body.classList.toggle("tema-escuro");
+    localStorage.setItem("tema", estaEscuro ? "escuro" : "claro");
+});
 }
 
 function mudaTema() {
