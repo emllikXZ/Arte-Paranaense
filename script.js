@@ -4,27 +4,7 @@
                 lucide.createIcons();
             }
 
-            // ==========================================
-            // 1. CONTROLE DO TEMA CLARO / ESCURO
-            // ==========================================
             const btnTema = document.getElementById("btnTemaEscuro");
-            const iconeTema = document.getElementById("iconeTema");
-
-            // Verifica preferência salva no navegador
-            const temaSalvo = localStorage.getItem("tema-erva-mate");
-            if (temaSalvo === "escuro") {
-                document.body.classList.add("tema-escuro");
-                iconeTema.textContent = "☀️";
-            } else {
-                iconeTema.textContent = "🌙";
-            }
-
-            btnTema.addEventListener("click", () => {
-                const estaEscuro = document.body.classList.toggle("tema-escuro");
-                localStorage.setItem("tema-erva-mate", estaEscuro ? "escuro" : "claro");
-                iconeTema.textContent = estaEscuro ? "☀️" : "🌙";
-            });
-
 
             const botoesCurtir = document.querySelectorAll(".btn-curtir");
 
