@@ -156,11 +156,13 @@ figcaption {
 }
 
 footer {
-    background-color: var(--cor-rodape);
-    color: var(--cor-clara);
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: var(--fundo);
+  color: var(--texto);
+  border-top: 1px solid var(--borda);
 }
 
 button {
