@@ -15,18 +15,15 @@ botoesCurtir.forEach(function (botaoCurtir) {
     }
 });
 
-const btnTema = document.queryseletor(".btn-tema");
-btnTema.addEventListener("click", mudarTema);
-function mudarTema() {
-    document.body.classList.toggle("tema-escuro");
-}
+const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
+
+btnTemaEscuro.addEventListener("click", mudaTema);
 
 function mudaTema() {
-    const corpoPagina = document.body;
-
-    if (corpoPagina.classList.contains("tema-escuro")) {
+     const corpoPagina = document.body;
+     if (corpoPagina.classList.constains("tema-escuro")) {
         corpoPagina.classList.remove("tema-escuro");
-    } else {
+     } else {
         corpoPagina.classList.add("tema-escuro");
-    }
+     }
 }
