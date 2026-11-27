@@ -201,6 +201,4 @@ button:hover {
   font-size: 20px;
   background-color: var(--fundo);
   color: var(--texto);
-  border: 1px solid var(--borda);
-  cursor: pointer;
 }
