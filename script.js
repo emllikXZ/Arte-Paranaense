@@ -21,7 +21,6 @@ btnTema.addEventListener("click", mudarTema);
 function mudarTema() {
     document.body.classList.toggle("tema-escuro");
 
-// Aplica o tema salvo ao carregar a página
 if (localStorage.getItem("tema") === "escuro") {
     document.body.classList.add("tema-escuro");
 }
