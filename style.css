@@ -194,25 +194,17 @@ button:hover {
     flex-wrap: wrap;
 }
 
-        .btn-tema-escuro {
-            position: fixed;
-            right: 20px;
-            bottom: 20px;
-            width: 60px;
-            height: 60px;
-            border-radius: 35%;
-            background-color: var(--cor-principal);
-            color: #ffffff;
-            border: 2px solid rgba(255, 255, 255, 0.25);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            z-index: 50;
-        }
-
-        .btn-tema-escuro:hover {
-            transform: scale(1.1) rotate(12deg);
-            background-color: var(--cor-hover);
-        }
+.btn-tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 35%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
