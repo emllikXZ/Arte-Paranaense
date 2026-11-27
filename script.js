@@ -21,18 +21,10 @@ btnTema.addEventListener("click", mudarTema);
 function mudarTema() {
     document.body.classList.toggle("tema-escuro");
 
-    const btnTema = document.querySelector(".btn-tema");
-    function atualizarIcone() {
-  const estaEscuro = document.body.classList.contains("tema-escuro");
-  btnTema.textContent = estaEscuro ? "☀️" : "🌙";
-}
-
 // Aplica o tema salvo ao carregar a página
 if (localStorage.getItem("tema") === "escuro") {
     document.body.classList.add("tema-escuro");
 }
-
-atualizarIcone();
 
 btnTema.addEventListener("click", () => {
     const estaEscuro = document.body.classList.toggle("tema-escuro");
