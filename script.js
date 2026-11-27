@@ -7,7 +7,8 @@ botoesCurtir.forEach(function (botaoCurtir) {
         if (curtiu === false) {
             contador.textContent++;
             curtiu = true;
-        } else {
+        }
+        else {
             contador.textContent--;
             curtiu = false;
         }
@@ -16,34 +17,25 @@ botoesCurtir.forEach(function (botaoCurtir) {
 
 const btnTema = document.querySelector(".btn-tema");
 btnTema.addEventListener("click", mudarTema);
+
 function mudarTema() {
     document.body.classList.toggle("tema-escuro");
-}
-function mudarTema() {
-document.body.classList.toggle("tema-escuro");
-}
 
-const btnTema = document.querySelector(".btn-tema");
 if (localStorage.getItem("tema") === "escuro") {
-  document.body.classList.add("tema-escuro");
+    document.body.classList.add("tema-escuro");
 }
 
 btnTema.addEventListener("click", () => {
-  const estaEscuro = document.body.classList.toggle("tema-escuro");
-  localStorage.setItem("tema", estaEscuro ? "escuro" : "claro");
+    const estaEscuro = document.body.classList.toggle("tema-escuro");
+    localStorage.setItem("tema", estaEscuro ? "escuro" : "claro");
 });
-
-const btnTema = document.querySelector(".btn-tema");
-
-function atualizarIcone() {
-  const estaEscuro = document.body.classList.contains("tema-escuro");
 }
 
-if (localStorage.getItem("tema") === "escuro") {
-  document.body.classList.add("tema-escuro");
-}
-
-btnTema.addEventListener("click", () => {
-  const estaEscuro = document.body.classList.toggle("tema-escuro");
-  localStorage.setItem("tema", estaEscuro ? "escuro" : "claro");
-});
+function mudaTema() {
+     const corpoPagina = document.body;
+     if (corpoPagina.classList.constains("tema-escuro")) {
+        corpoPagina.classList.remove("tema-escuro");
+     } else {
+        corpoPagina.classList.add("tema-escuro");
+     }
+};
